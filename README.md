@@ -1,6 +1,6 @@
 # Team-of-agents-using-crewAI
-The goal of this project is to create a team of autonomous AI agents that advise the user on invesments using:
-- **CrewAi** is a new framework for orchestrating role-playing, autonomous AI agents. 
+The goal of this project is to create a team of autonomous AI agents that advise the user on invesments, using:
+- **CrewAi** a new framework for orchestrating autonomous AI agents. 
 - **Exa** provides search for AI. The LLM can search using natural language from Exa's neural database.
 
 Before kickstarting our crew, we are going to ask the user for the company they are interested in investing.
@@ -9,7 +9,7 @@ In return, the team of AI agents will wotk together to provide an investment rec
 Some key concepts:
 - **Crew**: represents a collaborative group of agents working together to achieve a set of tasks for a specific goal.
 - **Tasks**: These are the tasks that our agents will perform. Each task will be assigned to an agent.
-- **Agents**: These are the AI agents that will be working for us. Each agent is an expert in a different task. In this case, we will have 3 agents.
+- **Agents**: These are the AI agents that will be working for us. Each agent is an expert in a different task. 
 - **Tools**: These are the tools that our agents will use to perform their tasks. In this case, they will use a serach engine.
 - **Process**: A process dictates the way that our agents will work together. In this case, we will use a sequential process.
 
